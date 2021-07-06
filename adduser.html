@@ -18,6 +18,100 @@
                     </div>
                     <!--メイン-->
                     <div class="col-md-10">
+                        <form>
+                            <!--学籍番号-->
+                            <div class="form-group">
+                                <label for="studentid">学籍番号</label>
+                                <input type="text" class="form-control" id="studentid" placeholder="学籍番号を入力">
+                            </div>
+                            <!--氏名-->
+                            <div class="form-group">
+                                <label for="name">氏名</label>
+                                <input type="text" class="form-control" id="name" placeholder="氏名を入力">
+                            </div>
+                            <!--生年月日-->
+                            <p>生年月日</p>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <select class="form-control year"></select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control month"></select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control day"></select>
+                                </div>
+                            </div>
+                            <!--入学年月-->
+                            <p>入学年月</p>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <select class="form-control year"></select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control month"></select>
+                                </div>
+                            </div>
+                            <!--所属学科-->
+                            <p>所属学科</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="subject" value="ITI" id="ITI">
+                                <label class="form-check-label" for="ITI">ITイノベーション</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="subject" value="ITE3" id="ITE3">
+                                <label class="form-check-label" for="ITE3">ITエンジニア科3年制</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="subject" value="ITE4" id="ITE4">
+                                <label class="form-check-label" for="ITE4">ITエンジニア科4年制</label>
+                            </div>
+                            <br>
+                            <!--性別-->
+                            <p>性別</p>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" value="male" id="male">
+                                <label class="form-check-label" for="male">男</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" value="female" id="female">
+                                <label class="form-check-label" for="female">女</label>
+                            </div>
+                            <div class="form-row">
+                                <!--郵便番号-->
+                                <div class="form-group col-md-6">
+                                    <br>
+                                    <label for="zipcode">郵便番号</label>
+                                    <input type="text" class="form-control" id="zipcode" placeholder="郵便番号を入力">
+                                </div>
+                                <!--住所-->
+                                <div class="form-group col-md-6">
+                                    <br>
+                                    <label for="address">住所</label>
+                                    <input type="text" class="form-control" id="address" placeholder="住所を入力">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <!--携帯番号-->
+                                <div class="form-group col-md-4">
+                                    <br>
+                                    <label for="mobtelnum">携帯番号</label>
+                                    <input type="text" class="form-control" id="mobtelnum" placeholder="携帯番号を入力">
+                                </div>
+                                <!--電話番号-->
+                                <div class="form-group col-md-4">
+                                    <br>
+                                    <label for="telnum">電話番号</label>
+                                    <input type="text" class="form-control" id="telnum" placeholder="電話番号を入力">
+                                </div>
+                                <!--緊急連絡先-->
+                                <div class="form-group col-md-4">
+                                    <br>
+                                    <label for="emetelnum">緊急連絡先</label>
+                                    <input type="text" class="form-control" id="emetelnum" placeholder="緊急連絡先を入力">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
